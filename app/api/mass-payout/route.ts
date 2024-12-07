@@ -180,7 +180,7 @@ async function sendMassPayout(
         console.error(`Error processing CSV file: `, error);
     }
 
-    console.log("Finished processing CSV file");
+    console.log("Finished sending funds to the accounts");
 }
 
 
